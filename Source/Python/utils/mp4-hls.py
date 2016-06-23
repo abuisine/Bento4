@@ -195,9 +195,9 @@ def OutputHls(options, media_sources):
     if audio_only:
         audio_tracks = []
 
-    # we only need alternate audio tracks if there are more than one
-    if not audio_only and len(audio_tracks) == 1:
-        audio_tracks = []
+    # # we only need alternate audio tracks if there are more than one
+    # if not audio_only and len(audio_tracks) == 1:
+    #     audio_tracks = []
 
     # process main/muxed media sources
     total_duration = 0
